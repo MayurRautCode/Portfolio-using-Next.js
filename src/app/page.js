@@ -1,3 +1,4 @@
+import React from "react";
 import NavbarC from "../component/navbarc";
 import Herosection from "../component/herosection";
 import Education from "../component/education";
