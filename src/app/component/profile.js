@@ -10,7 +10,7 @@ function Profile() {
      <section id='Profile' className='flex items-center flex-col md:my-5 lg:my-10 mx-5 md:mx-10 lg:mx-20 scroll-smooth'>
          <h1 className='text-[#FEB901] text-3xl md:text-5xl lg:text-6xl font-bold text-center mt-5 md:mt-10 mb-16 md:mb-20'>Connect With Me</h1>
          <div className='w-full h-full bg-white bg-opacity-10 py-8 md:py-14 rounded-[4rem] flex flex-col items-center'>   
-             <Image class="w-24 md:w-32 h-24 md:h-32 p-[6px] rounded-full ring-1 ring-[#FEB901]" src={mayur} alt="Bordered avatar"></Image>
+             <Image className="w-24 md:w-32 h-24 md:h-32 p-[6px] rounded-full ring-1 ring-[#FEB901]" src={mayur} alt="Bordered avatar"></Image>
              <h1 className='text-[#FEB901] text-3xl md:text-4xl lg:text-5xl font-bold text-center mt-2 lg:mt-5'>Mayur Raut</h1>
              <p className='text-white text-sm md:text-xl lg:text-2xl mt-3 lg:mt-7 mx-8 text-center'>Front End Developer / Web Designer / UI Developer</p>
              <div className='mt-4 lg:mt-7 flex max-md:flex-col'>
