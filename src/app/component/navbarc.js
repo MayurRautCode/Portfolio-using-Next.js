@@ -20,7 +20,7 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex items-center justify-center filter drop-shadow-md h-16 border-b border-slate-600">
         {/*logo container*/}
-        <Image src={logo} class="h-10 w-10" />
+        <Image src={logo} className="h-10 w-10" />
       </div>
       <div className="flex flex-col ml-4 text-white">
         <a
@@ -100,7 +100,7 @@ export default function Navbar() {
     <nav className="flex filter drop-shadow-md bg-black text-white px-6 md:px-4 lg:px-8 py-4 h-16 items-center border-b border-slate-600">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
-        <Image src={logo} class="h-10 w-10" />
+        <Image src={logo} className="h-10 w-10" />
       </div>
       <div className="w-9/12 flex justify-end items-center">
         <div
