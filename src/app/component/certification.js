@@ -1,26 +1,80 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import Great from "../public/great.png";
+import google from "../public/google.png";
+import clogo from "../public/clogo.svg";
+import { GrFormView } from "react-icons/gr";
+import Link from "next/link";
 
-function Certificates() {
+function Certificates(props) {
   return (
-    <div>
-        <h1 className='text-[#FEB901] text-4xl lg:text-6xl font-bold text-center mt-10'>Certificates</h1>
+    <div className="scroll-smooth " id="Certificates">
+      <h1 className="text-[#FEB901] text-4xl lg:text-6xl font-bold text-center mt-10">
+        Certificates
+      </h1>
 
-        <div className='grid grid-cols-1 lg:grid-cols-12 my-20 mx-10'>
-          <div className='col-span-6 bg-[#DAD2D8] hover:bg-white h-96 w-[37rem] rounded-[2rem] place-self-center px-8 py-8'>
-              <button className='bg-black text-[#FEB901] px-5 py-4 rounded-full font-bold text-2xl'>Great Learning</button>
-              <h1 className='font-bold text-3xl my-5'>Master Course in Full Stack Development</h1>
-              <p className='text-base font-semibold  mt-4 mb-4'> <button className='bg-black text-[#FEB901] rounded-full px-2'>-</button> HTML, CSS, Javascript, Git, Github, Figma, Tailwind, Bootstrap, React.js</p>
-              <button className='bg-black text-[#FEB901] px-5 py-4 rounded-full font-bold text-xl'>View</button>
-          </div>
+      <div className="grid grid-cols-1 lg:grid-cols-12 mt-20 mb-7 mx-4 md:mx-7 lg:mx-10 gap-7">
+        <div className="col-span-6 bg-[#DAD2D8] hover:bg-white w-full rounded-[2rem] place-self-center px-4 md:px-5 lg:px-8 py-4 md:py-5 lg:py-8 hover:duration-300">
+          <span className="flex justify-between items-center">
+            <div className="bg-black text-[#FEB901] rounded-full flex pr-2 md:pr-4 items-center">
+              <Image className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={Great}></Image>
 
-          <div className='col-span-6 bg-[#DAD2D8] hover:bg-white h-96 w-[37rem] rounded-[2rem] place-self-center px-8 py-8'>
-              <button className='bg-black text-[#FEB901] px-5 py-4 rounded-full font-bold text-2xl'>Google Digital Garage</button>
-              <h1 className='font-bold text-3xl my-5'>The Fundamentals of Digital Marketing</h1>
-              <button className='bg-black text-[#FEB901] px-5 py-4 rounded-full font-bold text-xl mt-16'>View</button>
-          </div>
+              <h1 className="text-sm md:text-lg lg:text-2xl font-bold ml-1 lg:ml-2">Great Learning</h1>
+            </div>
+            <Image src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
+          </span>
+          <h1 className="font-extrabold text-2xl md:text-3xl my-3 md:my-4 lg:my-7">
+            Master Course in Full Stack Development
+          </h1>
+          <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221408508687134723-UNiE?utm_source=share&utm_medium=member_desktop'}>
+         <button className="border border-black bg-[#e2e2e2] text-black hover:bg-black hover:text-white px-2 md:px-5 lg:px-7 py-1 lg:py-2 rounded-full text-lg md:text-xl lg:text-2xl flex items-center font-medium">
+            <GrFormView className="text-xl md:text-3xl lg:text-5xl" />
+            View
+          </button>
+          </Link>
         </div>
+
+        <div className="col-span-6 bg-[#DAD2D8] hover:bg-white w-full rounded-[2rem] place-self-center px-4 md:px-5 lg:px-8 py-4 md:py-5 lg:py-8 hover:duration-300">
+          <span className="flex justify-between items-center">
+            <div className="bg-black text-[#FEB901] rounded-full flex pr-2 md:pr-4 items-center">
+              <Image className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={google}></Image>
+
+              <h1 className="text-sm md:text-lg lg:text-2xl font-bold ml-1 lg:ml-2">Google Digital Garage</h1>
+            </div>
+            <Image src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
+          </span>
+          <h1 className="font-extrabold text-2xl md:text-3xl my-3 md:my-4 lg:my-7">
+            The Fundamentals of Digital Marketing
+          </h1>
+          <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221138605614751744-4MeV?utm_source=share&utm_medium=member_desktop'}>
+          <button className="border border-black bg-[#e2e2e2] text-black hover:bg-black hover:text-white px-2 md:px-5 lg:px-7 py-1 lg:py-2 rounded-full text-lg md:text-xl lg:text-2xl flex items-center font-medium">
+              <GrFormView className="text-xl md:text-3xl lg:text-5xl" />
+              View
+          </button>
+          </Link>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-12 mx-4 md:mx-7 lg:mx-10 gap-7">
+        <div className="col-span-6 bg-[#DAD2D8] hover:bg-white w-full rounded-[2rem] place-self-center px-4 md:px-5 lg:px-8 py-4 md:py-5 lg:py-8 hover:duration-300">
+          <span className="flex justify-between items-center">
+            <div className="bg-black text-[#FEB901] rounded-full flex pr-2 md:pr-4 items-center">
+              <Image className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={Great}></Image>
+              <h1 className="text-sm md:text-lg lg:text-2xl font-bold ml-1 lg:ml-2">Great Learning</h1>
+            </div>
+            <Image src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
+          </span>
+          <h1 className="font-extrabold text-2xl md:text-3xl my-3 md:my-4 lg:my-7"> React JS Tutorial </h1>
+          <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221412448744923136-VMC7?utm_source=share&utm_medium=member_desktop'}>
+          <button className="border border-black bg-[#e2e2e2] text-black hover:bg-black hover:text-white px-2 md:px-5 lg:px-7 py-1 lg:py-2 rounded-full text-lg md:text-xl lg:text-2xl flex items-center font-medium">
+            <GrFormView className="text-xl md:text-3xl lg:text-5xl" />
+            View
+          </button>
+          </Link>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Certificates
+export default Certificates;

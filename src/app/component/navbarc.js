@@ -1,86 +1,141 @@
-import React from "react";
+"use client";
+import { useState } from "react";
 import Image from "next/image";
-import mmm from "../public/logo.png";
+import logo from "../public/logo.png";
 
-function Navbarc() {
+function NavLink({ to, children }) {
   return (
-    <nav id='Home' className=" border-gray-700 border-b lg:mb-10">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a className="flex items-center">
-          <Image src={mmm} className="h-10 w-10" alt="Logo" />
-        </a>
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
+    <a href={to} className={`mx-4 hover:text-blue-500 `}>
+      {children}
+    </a>
+  );
+}
+
+function MobileNav({ open, setOpen }) {
+  return (
+    <div
+      className={`absolute top-0 left-0 h-screen w-screen bg-black text-white transform ${
+        open ? "-translate-x-0" : "-translate-x-full"
+      } transition-transform duration-300 ease-in-out filter drop-shadow-md scroll-smooth `}
+    >
+      <div className="flex items-center justify-center filter drop-shadow-md h-16 border-b border-slate-600">
+        {/*logo container*/}
+        <Image src={logo} class="h-10 w-10" />
+      </div>
+      <div className="flex flex-col ml-4 text-white">
+        <a
+          className="text-xl font-medium my-4 hover:text-blue-500"
+          href="#home"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
         >
-          <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="text-white font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-              <a
-                href="#Home"
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Education"
-                className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Education
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Skills"
-                className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Skills
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Project"
-                className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Profile"
-                className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+          Home
+        </a>
+        <a
+          className="text-xl font-normal my-4 hover:text-blue-500"
+          href="#Education"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Education
+        </a>
+        <a
+          className="text-xl font-normal my-4 hover:text-blue-500"
+          href="#Certificates"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Certificates
+        </a>
+        <a
+          className="text-xl font-normal my-4 hover:text-blue-500"
+          href="#Skills"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Skills
+        </a>
+        <a
+          className="text-xl font-normal my-4 hover:text-blue-500"
+          href="#Project"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Projects
+        </a>
+        <a
+          className="text-xl font-normal my-4 hover:text-blue-500"
+          href="#Profile"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Contact us
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default function Navbar() {
+  const [open, setOpen] = useState(false);
+  return (
+    <nav className="flex filter drop-shadow-md bg-black text-white px-6 md:px-4 lg:px-8 py-4 h-16 items-center border-b border-slate-600">
+      <MobileNav open={open} setOpen={setOpen} />
+      <div className="w-3/12 flex items-center">
+        <Image src={logo} class="h-10 w-10" />
+      </div>
+      <div className="w-9/12 flex justify-end items-center">
+        <div
+          className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden"
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          {/* hamburger button */}
+          <span
+            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
+              open ? "rotate-45 translate-y-3.5" : ""
+            }`}
+          />
+          <span
+            className={`h-1 bg-white rounded-lg transition-all duration-300 ease-in-out ${
+              open ? "w-0" : "w-full"
+            }`}
+          />
+          <span
+            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
+              open ? "-rotate-45 -translate-y-3.5" : ""
+            }`}
+          />
+        </div>
+
+        <div className="hidden md:flex">
+          <NavLink to="#home">Home</NavLink>
+          <NavLink to="#Education">Education</NavLink>
+          <NavLink to="#Certificates">Certificates</NavLink>
+          <NavLink to="#Skills">Skills</NavLink>
+          <NavLink to="#Project">Projects</NavLink>
+          <NavLink to="#Profile">Contact us</NavLink>
         </div>
       </div>
     </nav>
   );
 }
-
-export default Navbarc;
