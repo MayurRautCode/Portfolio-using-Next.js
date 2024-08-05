@@ -22,7 +22,7 @@ function Contact() {
               <ValidationError prefix="Message" field="message" errors={state.errors} />
           <button type="submit" disabled={state.submitting} className="mt-2 md:mt-6 py-3 md:py-4 lg:py-5 px-3 md:px-4 lg:px-5 text-lg md:text-xl lg:text-2xl font-medium md:font-semibold text-center text-black rounded-full bg-[#FEB901] hover:bg-opacity-80">Send message</button>
         </form>
-      <Image alt="picture" src={avtarnew} className='h-[11rem] md:h-[20rem] lg:h-[21rem] w-[11rem] md:w-[20rem] lg:w-[21rem] absolute right-0 md:right-10 lg:right-40 bottom-0'></Image>
+      <Image alt="pmc" src={avtarnew} className='h-[11rem] md:h-[20rem] lg:h-[21rem] w-[11rem] md:w-[20rem] lg:w-[21rem] absolute right-0 md:right-10 lg:right-40 bottom-0'></Image>
       </div>
 </section>
   );

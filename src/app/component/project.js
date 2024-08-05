@@ -26,7 +26,7 @@ function Project() {
       <div className="flex flex-col justify-center mx-5 md:mx-10 gap-8">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[#4d0000cf] px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
-          <Image alt="picture"
+          <Image alt="aa"
             src={procc}
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
@@ -60,7 +60,7 @@ function Project() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[rgb(16,39,98)] px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
-          <Image alt="picture"
+          <Image alt="pvve"
             src={prottt}
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
@@ -94,7 +94,7 @@ function Project() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[#4d0000cf] px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
-          <Image alt="picture"
+          <Image alt="aas"
             src={prorps}
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
@@ -127,7 +127,7 @@ function Project() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[rgb(16,39,98)]  px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
-          <Image alt="picture"
+          <Image alt="asa"
             src={protwitter}
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
@@ -160,7 +160,7 @@ function Project() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[#4d0000cf] px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
-          <Image alt="picture"
+          <Image alt="adsf"
             src={proac}
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
@@ -193,7 +193,7 @@ function Project() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[rgb(16,39,98)]  px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
-          <Image alt="picture"
+          <Image alt="df"
             src={proflipkar}
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
@@ -229,7 +229,7 @@ function Project() {
 
       <Link href={'https://github.com/MayurRautCode'}>
       <button className="bg-[#FEB901] hover:bg-opacity-85 text-black font-semibold text-lg md:text-2xl rounded-full px-3 md:px-7 py-2 md:py-3 flex items-center my-10">
-        <Image alt="picture"
+        <Image alt="fdh"
           src={github}
           className="h-7 w-7 md:h-10 md:w-10 rounded-full mr-2"
         ></Image>

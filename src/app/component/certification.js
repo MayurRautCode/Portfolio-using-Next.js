@@ -21,7 +21,7 @@ function Certificates(props) {
 
               <h1 className="text-sm md:text-lg lg:text-2xl font-bold ml-1 lg:ml-2">Great Learning</h1>
             </div>
-            <Image src={clogo} alt="picture" className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
+            <Image src={clogo} alt="picvfv" className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
           </span>
           <h1 className="font-extrabold text-2xl md:text-3xl my-3 md:my-4 lg:my-7">
             Master Course in Full Stack Development
@@ -37,11 +37,11 @@ function Certificates(props) {
         <div className="col-span-6 bg-[#DAD2D8] hover:bg-white w-full rounded-[2rem] place-self-center px-4 md:px-5 lg:px-8 py-4 md:py-5 lg:py-8 hover:duration-300">
           <span className="flex justify-between items-center">
             <div className="bg-black text-[#FEB901] rounded-full flex pr-2 md:pr-4 items-center">
-              <Image alt="picture" className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={google}></Image>
+              <Image alt="pidvdvure" className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={google}></Image>
 
               <h1 className="text-sm md:text-lg lg:text-2xl font-bold ml-1 lg:ml-2">Google Digital Garage</h1>
             </div>
-            <Image alt="picture" src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
+            <Image alt="wefef" src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
           </span>
           <h1 className="font-extrabold text-2xl md:text-3xl my-3 md:my-4 lg:my-7">
             The Fundamentals of Digital Marketing
@@ -59,10 +59,10 @@ function Certificates(props) {
         <div className="col-span-6 bg-[#DAD2D8] hover:bg-white w-full rounded-[2rem] place-self-center px-4 md:px-5 lg:px-8 py-4 md:py-5 lg:py-8 hover:duration-300">
           <span className="flex justify-between items-center">
             <div className="bg-black text-[#FEB901] rounded-full flex pr-2 md:pr-4 items-center">
-              <Image alt="picture" className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={Great}></Image>
+              <Image alt="dvdvve" className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16 rounded-full" src={Great}></Image>
               <h1 className="text-sm md:text-lg lg:text-2xl font-bold ml-1 lg:ml-2">Great Learning</h1>
             </div>
-            <Image alt="picture" src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
+            <Image alt="xae" src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
           </span>
           <h1 className="font-extrabold text-2xl md:text-3xl my-3 md:my-4 lg:my-7"> React JS Tutorial </h1>
           <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221412448744923136-VMC7?utm_source=share&utm_medium=member_desktop'}>

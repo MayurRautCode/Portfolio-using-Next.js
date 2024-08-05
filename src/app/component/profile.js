@@ -20,7 +20,7 @@ function Profile() {
                 <button className='max-md:mt-3 md:ml-4 py-2 md:py-3 lg:py-4 px-4 md:px-8 lg:px-12 rounded-full font-semibold text-lg md:text-xl lg:text-2xl text-[#FEB901] hover:text-black border border-[#FEB901] bg-[#FEB901] bg-opacity-10 hover:bg-[#FEB901] flex items-center justify-center'> <a href='#send'> Hire Me </a></button>
              </div>
           </div>
-      <Image alt="picture" src={avtar} className="max-md:h-[15rem] max-md:w-[15rem] my-8"></Image>
+      <Image alt="ss" src={avtar} className="max-md:h-[15rem] max-md:w-[15rem] my-8"></Image>
     </section>
   );
 }
