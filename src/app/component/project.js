@@ -31,7 +31,7 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-5">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-5">
             Currency Converter  
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-1">
@@ -65,7 +65,7 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-5">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-5">
             Tic-Tac-Toe
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-1">
@@ -99,7 +99,7 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-5">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-5">
             Rock Paper Scissor
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-1">
@@ -132,7 +132,7 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-7">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-7">
             Twitter Clone
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-2">
@@ -165,7 +165,7 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-7">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-7">
             Amazon Clone
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-2">
@@ -198,7 +198,7 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-8">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-8">
               Flipkart Clone
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-3">

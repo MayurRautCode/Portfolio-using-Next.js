@@ -17,10 +17,10 @@ function Education() {
             </span>
             <span>
               <button className='bg-white px-5 py-2 rounded-full font-bold  text-sm lg:text-xl mt-4 mb-6 mr-4 border-black border-2'>Bachelor’s Degree</button>
-              <button className='bg-black text-[#FEB901] px-5 py-2 rounded-full font-bold  text-sm lg:text-xl'>BCA</button>
+              <button className='bg-black text-[#FEB901] px-5 py-1 rounded-full font-bold  text-sm lg:text-xl'>BCA</button>
               <h1 className='font-bold text-2xl lg:text-3xl'>Bachelor of Computer Applications</h1>
-              <p className='text-base md:text-xl mt-4 mb-4 flex items-center'> <button className='bg-white text-[#FEB901] rounded-full px-1 py-1 mr-2'><FcHome className='h-6 w-6' /></button> ST. Francis De Sales College</p>
-              <p className='text-base md:text-xl mt-4 mb-4 flex items-center'><button className='bg-white text-[#FEB901] rounded-full px-1 py-1  mr-2'><ImLocation className='h-6 w-6' /></button> Nagpur, Maharastra, India</p>
+              <p className='text-base md:text-xl my-2 md:my-4 flex items-center'> <button className='bg-white text-[#FEB901] rounded-full px-1 py-1 mr-2'><FcHome className='h-6 w-6' /></button> ST. Francis De Sales College</p>
+              <p className='text-base md:text-xl my-2 md:my-4 flex items-center'><button className='bg-white text-[#FEB901] rounded-full px-1 py-1  mr-2'><ImLocation className='h-6 w-6' /></button> Nagpur, Maharastra, India</p>
             </span>
           </div>
 
@@ -31,10 +31,10 @@ function Education() {
             </span>
             <span>
               <button className='bg-white px-5 py-2 rounded-full font-bold  text-sm lg:text-xl mt-4 mb-6 mr-4 border-black border-2'>Master’s Degree</button>
-              <button className='bg-black text-[#FEB901] px-5 py-2 rounded-full font-bold  text-sm lg:text-xl'>MCA</button>
+              <button className='bg-black text-[#FEB901] px-5 py-1 rounded-full font-bold  text-sm lg:text-xl'>MCA</button>
               <h1 className='font-bold text-2xl lg:text-3xl'>Master’s of Computer Applications</h1>
-              <p className='text-base md:text-xl mt-4 mb-4 flex items-center'> <button className='bg-white text-[#FEB901] rounded-full px-1 py-1 mr-2'><FcHome className='h-6 w-6' /></button> GH Raisoni University</p>
-              <p className='text-base md:text-xl mt-4 mb-4 flex items-center'><button className='bg-white text-[#FEB901] rounded-full px-1 py-1  mr-2'><ImLocation className='h-6 w-6' /></button> Nagpur, Maharastra, India</p>
+              <p className='text-base md:text-xl my-2 md:my-4 flex items-center'> <button className='bg-white text-[#FEB901] rounded-full px-1 py-1 mr-2'><FcHome className='h-6 w-6' /></button> GH Raisoni University</p>
+              <p className='text-base md:text-xl my-2 md:my-4 flex items-center'><button className='bg-white text-[#FEB901] rounded-full px-1 py-1  mr-2'><ImLocation className='h-6 w-6' /></button> Nagpur, Maharastra, India</p>
             </span>
           </div>
         </div>
