@@ -18,12 +18,12 @@ import proac from "../public/proac.png";
 
 function Project() {
   return (
-    <section id="Project" className="my-10 flex flex-col items-center scroll-smooth">
+    <section id="Project" className="my-10 flex flex-col items-center scroll-smooth mx-4 md:mx-7 lg:mx-10">
       <h1 className="text-[#FEB901] text-4xl lg:text-6xl font-bold text-center mt-10 mb-20">
         Projects
       </h1>
 
-      <div className="flex flex-col justify-center mx-5 md:mx-10 gap-8">
+      <div className="flex flex-col justify-center gap-8">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 bg-[#4d0000cf] px-5 md:px-6 py-4 md:py-6 rounded-[2rem] md:rounded-[4rem]">
           <Image alt="aa"
@@ -31,13 +31,13 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-2xl md:text-5xl font-bold text-white mb-5">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-4">
             Currency Converter  
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-1">
               Worked on
             </p>
-            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-3">
+            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-4">
               •Integrated a third-party API to fetch real-time currency exchange rates.
               •Designed a responsive and intuitive user interface using HTML, CSS, and JavaScript, fetch API.
             </p>
@@ -45,11 +45,11 @@ function Project() {
               Technologies I have used
             </p>
             <span className='flex flex-wrap'>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={js} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> JavaScript</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={js} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> JavaScript</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-3 mb-4 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
             </span>
             <Link href={'https://github.com/MayurRautCode/Currency-Converter'}>
             <button className="px-6 md:px-10 py-2 md:py-4 border border-white text-xl md:text-2xl font-medium rounded-full bg-white bg-opacity-10 text-white hover:bg-white hover:text-black flex">
@@ -65,13 +65,13 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-2xl md:text-5xl font-bold text-white mb-5">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-4">
             Tic-Tac-Toe
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-1">
               Worked on
             </p>
-            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-3">
+            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-4">
             •Implemented game mechanics including player turns, win conditions, and game board rendering.
             •Tech Stack used: HTML, CSS, JavaScript.
             </p>
@@ -79,11 +79,11 @@ function Project() {
               Technologies I have used
             </p>
             <span className='flex flex-wrap'>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={js} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> JavaScript</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={js} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> JavaScript</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-3 mb-4 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
             </span>
             <Link href={'https://github.com/MayurRautCode/Tic-Tac-Toe-Game'}>
             <button className="px-6 md:px-10 py-2 md:py-4 border border-white text-xl md:text-2xl font-medium rounded-full bg-white bg-opacity-10 text-white hover:bg-white hover:text-black flex">
@@ -99,24 +99,24 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-2xl md:text-5xl font-bold text-white mb-5">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-4">
             Rock Paper Scissor
             </h1>
             <p className="text-white font-medium text-base md:text-xl mb-1">
               Worked on
             </p>
-            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-3">
+            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-4">
             •Developed a Rock Paper Scissors game application using JavaScript and HTML/CSS for the user interface.
             </p>
             <p className="text-white font-medium text-base md:text-xl mb-4">
               Technologies I have used
             </p>
             <span className='flex flex-wrap'>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={js} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> JavaScript</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={js} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> JavaScript</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-3 mb-4 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
             </span>
             <Link href={'https://github.com/MayurRautCode/Rock-Paper-Scissors-Game'}>
             <button className="px-6 md:px-10 py-2 md:py-4 border border-white text-xl md:text-2xl font-medium rounded-full bg-white bg-opacity-10 text-white hover:bg-white hover:text-black flex">
@@ -132,24 +132,24 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-2xl md:text-5xl font-bold text-white mb-7">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-4 md:mb-7">
             Twitter Clone
             </h1>
-            <p className="text-white font-medium text-base md:text-xl mb-2">
+            <p className="text-white font-medium text-base md:text-xl mb-1 md:mb-2">
               Worked on
             </p>
             <p className="text-[#FEB901] font-medium text-base md:text-xl mb-4">
               •This project is a clone of twitter where user can see front page.
               •Tech Stack used: HTML Tailwind css.
             </p>
-            <p className="text-white font-medium text-base md:text-xl mb-5">
+            <p className="text-white font-medium text-base md:text-xl mb-4 md:mb-5">
               Technologies I have used
             </p>
             <span className='flex flex-wrap mb-10'>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-1 md:mr-3 mb-6 flex items-center'> <Image src={tailwind} className='h-6 md:h-8 w-6 md:w-8 md:mr-1'></Image> Tailwind CSS</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={tailwind} className='h-6 md:h-8 w-6 md:w-8 md:mr-1'></Image> Tailwind CSS</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-3 mb-4 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
             </span>
             <Link href={'https://github.com/MayurRautCode/Twitter-clone'}>
             <button className="px-6 md:px-10 py-2 md:py-4 border border-white text-xl md:text-2xl font-medium rounded-full bg-white bg-opacity-10 text-white hover:bg-white hover:text-black flex">
@@ -165,24 +165,24 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-2xl md:text-5xl font-bold text-white mb-7">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-4 md:mb-7">
             Amazon Clone
             </h1>
-            <p className="text-white font-medium text-base md:text-xl mb-2">
+            <p className="text-white font-medium text-base md:text-xl mb-1 md:mb-2">
               Worked on
             </p>
-            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-5">
+            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-4 md:mb-5">
             •This project is a clone of amazon where user can see front page
             •Tech Stack used: HTML, CSS
             </p>
-            <p className="text-white font-medium text-base md:text-xl mb-5">
+            <p className="text-white font-medium text-base md:text-xl mb-4 md:mb-5">
               Technologies I have used
             </p>
             <span className='flex flex-wrap mb-5'>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-3 mb-4 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
             </span>
             <Link href={'https://github.com/MayurRautCode/Amazon_clone'}>
             <button className="px-6 md:px-10 py-2 md:py-4 border border-white text-xl md:text-2xl font-medium rounded-full bg-white bg-opacity-10 text-white hover:bg-white hover:text-black flex">
@@ -198,24 +198,24 @@ function Project() {
             className="col-span-6 h-full rounded-[2rem] md:rounded-[4rem]"
           ></Image>
           <div className="col-span-6 h-full">
-            <h1 className="text-2xl md:text-5xl font-bold text-white mb-8">
+            <h1 className="text-2xl md:text-5xl font-bold text-white mb-4 md:mb-8">
               Flipkart Clone
             </h1>
-            <p className="text-white font-medium text-base md:text-xl mb-3">
+            <p className="text-white font-medium text-base md:text-xl mb-1 md:mb-3">
               Worked on
             </p>
-            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-5">
+            <p className="text-[#FEB901] font-medium text-base md:text-xl mb-4 md:mb-5">
             •This project is clone of flipkart where user can see front page
             •Tech Stack used: HTML CSS
             </p>
-            <p className="text-white font-medium text-base md:text-xl mb-5">
+            <p className="text-white font-medium text-base md:text-xl mb-4 md:mb-5">
               Technologies I have used
             </p>
             <span className='flex flex-wrap mb-7'>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
-            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-2 md:mr-3 mb-6 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={html} className='h-6 md:h-8 w-6 md:w-8'></Image> HTML5 </button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={css} className='h-6 md:h-8 w-6 md:w-8'></Image> CSS3</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-4 py-2 mr-3 mb-4 flex items-center'> <Image src={git} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Git</button>
+            <button className='bg-white font-semibold text-sm md:text-lg rounded-full px-2 md:px-3 py-2 mr-3 mb-4 flex items-center'> <Image src={github} className='h-6 md:h-8 w-6 md:w-8 mr-1'></Image> Github</button>
             </span>
             <Link href={'https://github.com/MayurRautCode/flipkart-clone'}>
             <button className="px-6 md:px-10 py-2 md:py-4 border border-white text-xl md:text-2xl font-medium rounded-full bg-white bg-opacity-10 text-white hover:bg-white hover:text-black flex">
