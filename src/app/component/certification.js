@@ -26,7 +26,7 @@ function Certificates(props) {
           <h1 className="font-extrabold text-xl md:text-3xl my-3 md:my-4 lg:my-7">
             Master Course in Full Stack Development
           </h1>
-          <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221408508687134723-UNiE?utm_source=share&utm_medium=member_desktop'}>
+          <Link href="/certificate1">
          <button className="border border-black bg-[#e2e2e2] text-black hover:bg-black hover:text-white px-2 md:px-5 lg:px-7 py-1 lg:py-2 rounded-full text-lg md:text-xl lg:text-2xl flex items-center font-medium">
             <GrFormView className="text-xl md:text-3xl lg:text-5xl" />
             View
@@ -46,7 +46,7 @@ function Certificates(props) {
           <h1 className="font-extrabold text-xl md:text-3xl my-3 md:my-4 lg:my-7">
             The Fundamentals of Digital Marketing
           </h1>
-          <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221138605614751744-4MeV?utm_source=share&utm_medium=member_desktop'}>
+          <Link href="/certificate2">
           <button className="border border-black bg-[#e2e2e2] text-black hover:bg-black hover:text-white px-2 md:px-5 lg:px-7 py-1 lg:py-2 rounded-full text-lg md:text-xl lg:text-2xl flex items-center font-medium">
               <GrFormView className="text-xl md:text-3xl lg:text-5xl" />
               View
@@ -65,13 +65,14 @@ function Certificates(props) {
             <Image alt="xae" src={clogo} className="h-10 md:h-12 lg:h-16 w-10 md:w-12 lg:w-16"></Image>
           </span>
           <h1 className="font-extrabold text-xl md:text-3xl my-3 md:my-4 lg:my-7"> React JS Tutorial </h1>
-          <Link href={'https://www.linkedin.com/posts/mayurraut1_im-happy-to-share-that-ive-obtained-a-new-activity-7221412448744923136-VMC7?utm_source=share&utm_medium=member_desktop'}>
+          <Link href="/certificate3">
           <button className="border border-black bg-[#e2e2e2] text-black hover:bg-black hover:text-white px-2 md:px-5 lg:px-7 py-1 lg:py-2 rounded-full text-lg md:text-xl lg:text-2xl flex items-center font-medium">
             <GrFormView className="text-xl md:text-3xl lg:text-5xl" />
             View
           </button>
           </Link>
         </div>
+
       </div>
     </div>
   );

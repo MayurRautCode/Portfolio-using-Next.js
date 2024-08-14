@@ -87,7 +87,7 @@ function MobileNav({ open, setOpen }) {
             }, 100)
           }
         >
-          Contact us
+          Contact Us
         </a>
       </div>
     </div>
@@ -133,7 +133,7 @@ export default function Navbar() {
           <NavLink to="#Certificates">Certificates</NavLink>
           <NavLink to="#Skills">Skills</NavLink>
           <NavLink to="#Project">Projects</NavLink>
-          <NavLink to="#Profile">Contact us</NavLink>
+          <NavLink to="#Profile">Contact Us</NavLink>
         </div>
       </div>
     </nav>

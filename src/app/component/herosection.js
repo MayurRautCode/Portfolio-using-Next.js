@@ -9,7 +9,7 @@ function Herosection() {
   return (
     <div id='home' className='grid grid-cols-1 md:grid-cols-12 mx-4 md:mx-7 lg:mx-10 my-12 lg:my-20 scroll-smooth'>
         <div className='col-span-7 place-self-center max-md:text-center'>
-          <div className='text-white text-3xl lg:text-6xl font-semibold'>
+          <div className='text-white text-4xl lg:text-6xl font-semibold'>
             <h1 className='text-blue-600'>Hello, I&#39;m</h1> 
             <TypeAnimation
              sequence={[
